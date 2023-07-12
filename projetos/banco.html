@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/banco.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/banco.css">
+    <title>Sistema Bancário</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="../imagens/banco.png" alt="" class="logo" width="80">
+            <a href="../index.html">Voltar ao Menu de escolha</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="controle">
+          <h2>Saldo Atual</h2>
+          <div class="balance-content">
+            <p class="saldo" id="saldo">R$ 0,00</p>
+            <button id="aumentar10">+ R$10,00</button>
+            <button id="aumentar100">+ R$100,00</button>
+          </div>
+        </section>
+    </div>
+    
+    <div class="container">
+        <section class="pix">
+          <h2>Transferência PIX</h2>
+          <div class="balance-content">
+            <p>Insira o valor da Compra:</p>
+            <input type="number" id="valor" value="valor" placeholder="Valor aqui." min="0">
+            <button id="button">Confirmar</button>
+            <h3 id="aprovacao">Aguardando Aprovação ...</h3>
+          </div>
+        </section>
+    </div>
+
+      <footer>
+        <p>&copy; 2023 Banco Henrique Dudak. Todos os direitos reservados.</p>
+      </footer>
+      <script src="../scripts/banco.js"></script>
+</body>
+</html>

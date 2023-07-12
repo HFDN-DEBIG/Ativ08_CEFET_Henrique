@@ -1,0 +1,32 @@
+body {
+    background-color: #9dbd0c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .logo,
+  a {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+  }
+  
+  nav a:hover,
+  nav a:focus {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 65px;
+  }
