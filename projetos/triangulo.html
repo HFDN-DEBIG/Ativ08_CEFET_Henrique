@@ -15,5 +15,31 @@
         </nav>
     </header>
     
+    <div class="container">
+        <section>
+            <h2>MEDIDAS</h2>
+            <div class="input-group">
+                <label for="ladoA">Cateto 1:</label>
+                <input type="number" id="ladoA" placeholder="Digite o valor do cateto1">
+            </div>
+            <div class="input-group">
+                <label for="ladoB">Cateto 2:</label>
+                <input type="number" id="ladoB" placeholder="Digite o valor do cateto2">
+            </div>
+            <div class="input-group">
+                <label for="ladoC">Hipotenusa:</label>
+                <input type="number" id="ladoC" placeholder="Digite o valor da hipotenusa">
+            </div>
+            <button id="calcular">Calcular</button>
+        </section>
+        <section id="resultado" style="display: none;">
+            <h2>Classificação</h2>
+            <p id="tipoTriangulo"></p>
+            <p id="perimetro"></p>
+            <p id="area"></p>
+        </section>
+    </div>
+
+    <script src="../scripts/triangulo.js"></script>
 </body>
 </html>

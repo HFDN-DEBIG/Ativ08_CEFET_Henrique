@@ -15,7 +15,32 @@
         </nav>
     </header>
     
+    <div class="container">
+        <section class="salario">
+          <h2>Salário Atual</h2>
+            <p>Insira o valor atual de seu salário:</p>
+            <input type="number" id="valor" value="valor" placeholder="Valor aqui." min="1">
+            <button id="button">Confirmar</button>
+            <h3 id="aprovacao">Insira seu salário e saiba se você está apto a receber o aumento...</h3>
+          </div>
+        </section>
+    </div>
     
-    
+    <div class="container">
+        <section class="reajuste">
+          <h2>Reajuste</h2>
+          <div class="balance-content">
+                <p class="atual" id="atual">Novo Salário: R$ 0,00</p>
+                <p class="percentual" id="percentual">Aumento de: 0 %</p>
+                <p class="diferenca" id="diferenca">Aumento de: R$ 0,00</p>
+          </div>
+        </section>
+    </div>
+
+      <footer>
+        <p>&copy; 2023 Casseta & Planeta-Rede Globo. Todos os direitos reservados.</p>
+      </footer>
+      <script src="../scripts/salario.js"></script>
+
 </body>
 </html>
